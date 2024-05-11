@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://placehold.co/600x400/000000/FFF">
+    <title>Document</title>
+    <script src="app.js"></script>
+</head>
+<body>
+    <form>
+        <p>Enter Name</p>
+        <input id="name" type="text">
+        <p>Enter Age</p>
+        <input id="age" type="number">
+        <button onclick="submitclick()">Submit</button>
+    </form>
+</body>
+<script>
+
+    function submitclick(){
+        var name=document.querySelector('#name').value;
+        var age=document.querySelector('#age').value;
+        console.log(name,age);
+    }
+</script>
+</html>
