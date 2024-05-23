@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import Navbar from './components/Navbar'
 import './App.css'
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
 
   return (
     <>
+      <Navbar></Navbar>
       <p>Supratims one and only T shirt website</p>
     </>
   )
