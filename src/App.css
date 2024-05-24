@@ -1,0 +1,27 @@
+.responsive-margin {
+    margin: 200px;
+  }
+
+.card{
+    width: '18rem';
+}
+
+@media (max-width: 1400px) {
+    .card {
+        width: '15rem';
+    }
+}
+@media (max-width: 1000px) {
+    .responsive-margin {
+        margin: 200px 150px;
+    }
+}
+
+@media (max-width: 800px) {
+    .responsive-margin {
+      margin: 200px 50px;
+    }
+  }
+
+
+
